@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Raw Sorter</title>
+  <desc id="desc">A dark graphite technical header with a folder splitting into JPG and RAW lanes, scanning lines, particles and a subtle animated title reveal.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#171e28"/></linearGradient>
+    <linearGradient id="cyan"><stop stop-color="#76e4ff"/><stop offset="1" stop-color="#36a9ff"/></linearGradient>
+    <linearGradient id="amber"><stop stop-color="#ffcf72"/><stop offset="1" stop-color="#ff8b4d"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="titleClip"><rect x="76" y="76" width="530" height="70"><animate attributeName="width" from="0" to="530" dur="1.4s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <path d="M0 245H1200M0 80H1200" stroke="#283342" opacity=".55"/>
+  <g fill="#8feaff" opacity=".7">
+    <circle cx="680" cy="58" r="2"><animate attributeName="cy" values="58;42;58" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="112" r="1.5"><animate attributeName="cx" values="1040;1080;1040" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="260" r="2"><animate attributeName="opacity" values=".2;.9;.2" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <g clip-path="url(#titleClip)" fill="#f3f7fb" font-family="Segoe UI,Arial,sans-serif">
+    <text x="76" y="122" font-size="54" font-weight="700" letter-spacing="2">RAW SORTER</text>
+  </g>
+  <text x="80" y="157" fill="#9eacbd" font-family="Consolas,monospace" font-size="15" letter-spacing="3">PHOTO FILEFLOW / DESKTOP UTILITY</text>
+  <g transform="translate(720 48)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 88h82l20-22h110a12 12 0 0 1 12 12v95a12 12 0 0 1-12 12H0a12 12 0 0 1-12-12V100A12 12 0 0 1 0 88Z" fill="#182532" stroke="#76e4ff" stroke-width="2"/>
+    <path d="M28 140h125" stroke="#49687d" stroke-width="2" stroke-dasharray="4 8"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.4s" repeatCount="indefinite"/></path>
+    <path d="M220 125h58M278 125l-12-8m12 8-12 8" stroke="#76e4ff" stroke-width="2"><animate attributeName="opacity" values=".25;1;.25" dur="1.7s" repeatCount="indefinite"/></path>
+    <path d="M286 78h150v54H286Z" fill="#102d35" stroke="#76e4ff"/>
+    <text x="361" y="111" text-anchor="middle" fill="#a9efff" stroke="none" font-family="Consolas,monospace" font-size="16">JPG</text>
+    <path d="M286 151h150v54H286Z" fill="#302519" stroke="#ffb25d"/>
+    <text x="361" y="184" text-anchor="middle" fill="#ffd28a" stroke="none" font-family="Consolas,monospace" font-size="16">RAW</text>
+    <circle cx="54" cy="49" r="4" fill="#76e4ff" stroke="none" filter="url(#glow)"><animateMotion path="M0 0h330v155" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+  <path d="M42 220h1116" stroke="#263746"/>
+  <path d="M42 220h230" stroke="#76e4ff" stroke-width="2"><animate attributeName="stroke-dasharray" values="0 230;230 0;0 230" dur="5s" repeatCount="indefinite"/></path>
+  <text x="80" y="267" fill="#718194" font-family="Consolas,monospace" font-size="13">SCAN  /  CLASSIFY  /  MOVE  /  RECOVER</text>
+  <text x="1120" y="267" text-anchor="end" fill="#718194" font-family="Consolas,monospace" font-size="13">PYQT6 · LOCAL FIRST</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="t d">
+  <title id="t">Raw Sorter architecture</title><desc id="d">UI, scanner, worker and filesystem components connected by animated data-flow arrows.</desc>
+  <defs><linearGradient id="g"><stop stop-color="#55d6ff"/><stop offset="1" stop-color="#ffb45d"/></linearGradient><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#65dfff"/></marker></defs>
+  <rect width="1100" height="300" rx="16" fill="#10161e"/><path d="M40 150h1020" stroke="#243442"/>
+  <g font-family="Consolas,monospace" font-size="14" text-anchor="middle">
+    <g><rect x="42" y="102" width="190" height="96" rx="10" fill="#182936" stroke="#55d6ff"/><text x="137" y="138" fill="#d9f7ff">Qt UI</text><text x="137" y="166" fill="#7f9aaa" font-size="12">choose · review · undo</text></g>
+    <g><rect x="302" y="102" width="190" height="96" rx="10" fill="#182936" stroke="#55d6ff"/><text x="397" y="138" fill="#d9f7ff">scan()</text><text x="397" y="166" fill="#7f9aaa" font-size="12">os.scandir · classify</text></g>
+    <g><rect x="562" y="102" width="190" height="96" rx="10" fill="#2b241d" stroke="#ffb45d"/><text x="657" y="138" fill="#ffe2aa">Mover QThread</text><text x="657" y="166" fill="#aa9274" font-size="12">move · progress · cancel</text></g>
+    <g><rect x="822" y="102" width="235" height="96" rx="10" fill="#2b241d" stroke="#ffb45d"/><text x="939" y="138" fill="#ffe2aa">Filesystem</text><text x="939" y="166" fill="#aa9274" font-size="12">-jpg · -raw · undo map</text></g>
+  </g>
+  <g fill="none" stroke="url(#g)" stroke-width="2" marker-end="url(#a)" stroke-dasharray="8 8">
+    <path d="M232 150h70"><animate attributeName="stroke-dashoffset" from="0" to="-32" dur="1.2s" repeatCount="indefinite"/></path>
+    <path d="M492 150h70"><animate attributeName="stroke-dashoffset" from="0" to="-32" dur="1.2s" begin=".35s" repeatCount="indefinite"/></path>
+    <path d="M752 150h70"><animate attributeName="stroke-dashoffset" from="0" to="-32" dur="1.2s" begin=".7s" repeatCount="indefinite"/></path>
+  </g>
+  <text x="550" y="50" text-anchor="middle" fill="#566879" font-family="Consolas,monospace" font-size="12">LOCAL, EXPLICIT, REVERSIBLE</text>
+</svg>

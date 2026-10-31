@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="190" viewBox="0 0 860 190" role="img" aria-labelledby="t d">
+  <title id="t">Raw Sorter terminal demonstration</title><desc id="d">A static terminal card with an animated cursor and progress bar.</desc>
+  <rect width="860" height="190" rx="14" fill="#0b1016" stroke="#2b3c4b"/><circle cx="28" cy="25" r="5" fill="#ff6b5c"/><circle cx="46" cy="25" r="5" fill="#ffca58"/><circle cx="64" cy="25" r="5" fill="#55d98b"/>
+  <g font-family="Consolas,monospace" font-size="14"><text x="30" y="65" fill="#718697">raw-sorter</text><text x="30" y="91" fill="#9ceeff">› choose /Pictures/Trip</text><text x="30" y="117" fill="#b9c9d5">scan complete  ·  184 JPG  ·  62 RAW  ·  7 other</text><text x="30" y="143" fill="#ffcc78">organizing  [</text><path d="M150 138h260" stroke="#324957"/><path d="M150 138h196" stroke="#55d6ff" stroke-width="4"><animate attributeName="d" values="M150 138h36;M150 138h196;M150 138h260" dur="3s" repeatCount="indefinite"/></path><text x="425" y="143" fill="#9ceeff"> 75%</text></g>
+  <rect x="30" y="155" width="7" height="15" fill="#55d6ff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>
